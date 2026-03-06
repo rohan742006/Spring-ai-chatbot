@@ -145,3 +145,19 @@ Ngrok provides a public URL for testing or demos.
 ---
 
 Once everything is set up, open your browser at `http://localhost:8080` and start chatting with your AI!
+
+---
+
+⚠️ **Important Note**
+
+The `index.html` file is included **twice intentionally**:
+
+1. Inside `src/main/resources/static/` → for running the chatbot locally with Spring Boot.  
+2. At the root (or repository level) → so it can be displayed via **GitHub Pages**.
+
+If you are running the chatbot on your **own device**, you **do not need to download or add it a second time** — the local `static` version is sufficient.  
+
+You can also view the chatbot directly online using GitHub Pages:
+
+[View Spring AI Chatbot Online](https://rohan742006.github.io/Spring-ai-chatbot/)
+
