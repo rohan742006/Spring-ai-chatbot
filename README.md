@@ -23,7 +23,7 @@ You can also use other Ollama-supported models instead of Phi if you prefer.
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/spring-ai-chatbot.git
+git clone https://github.com/rohan742006/spring-ai-chatbot.git
 cd spring-ai-chatbot
 ```
 
@@ -148,3 +148,4 @@ Once everything is set up, open your browser at `http://localhost:8080` and star
 
 ---
 
+⚠️ Note: The index.html at the root is only for GitHub Pages preview. When you download the project, you don’t need to use this copy, the one inside src/main/resources/static/ is sufficient for running locally.
